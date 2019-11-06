@@ -11,15 +11,15 @@ A documentação do projeto justamente com a explicação do padrão estará dis
 
 Informações sobre o trabalho - 
 
-**Professor:** Thiago Delgado Pinto
-**Universidade:** Centro Federal de Educação Tecnológica Celso Suckow da Fonseca
+**Professor:** Thiago Delgado Pinto <br>
+**Universidade:** Centro Federal de Educação Tecnológica Celso Suckow da Fonseca <br>
 
 **Alunos:**
-Matheus de Castro Pelegrino 	- matheuscastroweb@gmail.com
-Gabrielly Ezequiel Corrêa  	- gabriellyezequiel_@hotmail.com
-Cleiton da Silva Baloneker	- cleitonbaloneker@gmail.com
-Aldair Camargo Duarte Klein 	- camargoterabyte@gmail.com
-Artur Pedroza Ferreira 		- petsqui@gmail.com
-Conrado de Menezes Schuenck 	- conradomschuenck54@gmail.com
+Matheus de Castro Pelegrino 	- matheuscastroweb@gmail.com  <br>
+Gabrielly Ezequiel Corrêa  	- gabriellyezequiel_@hotmail.com <br>
+Cleiton da Silva Baloneker	- cleitonbaloneker@gmail.com <br>
+Aldair Camargo Duarte Klein 	- camargoterabyte@gmail.com <br>
+Artur Pedroza Ferreira 		- petsqui@gmail.com <br>
+Conrado de Menezes Schuenck 	- conradomschuenck54@gmail.com <br>
 
 
