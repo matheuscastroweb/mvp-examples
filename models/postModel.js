@@ -6,10 +6,7 @@ function PostModel(_text) {
     /**
      * @var ID recebe
      */
-    var ID = (
-
-        
-    new Date()).getTime();
+    var ID = (new Date()).getTime();
 
     this.getID = function () {
      return ID;
@@ -21,10 +18,12 @@ function PostModel(_text) {
      * @var Text armazena o texto enviado para o parâmetro _text
      */
     var Text = _text;
+
     this.getText = function () {
         console.log(Text);
         return Text;
     }
+
     this.setText = function (value) {
         Text = value;
     }
