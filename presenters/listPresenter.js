@@ -8,8 +8,8 @@ function ListPresenter(_view) {
 		view = _view;
 
 		view.addCreateTaskHandler(function (taskTitle) {
-			var model = new TaskModel(taskTitle);
-			var task = new TaskPresenter(new TaskView());
+			var model = new PostModel(taskTitle);
+			var task = new PostPresenter(new PostView());
 			task.setModel(model);
 
 			view.addTask(task.getView());

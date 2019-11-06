@@ -1,4 +1,4 @@
-function TaskPresenter(_view) {
+function PostPresenter(_view) {
 	/**
 	 * Onde está a lógica por trás da funcionalidade dos widgets, como manipulação de dados, armazenamento e carregamento de dados, eventos de aplicativos, etc.
 	 */

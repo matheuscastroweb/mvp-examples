@@ -1,4 +1,4 @@
-function TaskModel(_text) {
+function PostModel(_text) {
     /**
      * No qual o modelo de dados para o widget está definido.
      */

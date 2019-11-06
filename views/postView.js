@@ -1,4 +1,4 @@
-function TaskView() {
+function PostView() {
 	/**
 	 * Na qual a lógica por trás da interface do usuário é manipulada, com eventos da interface do usuário, visualização de dados e outra lógica centrada na interface do usuário
 	 */
