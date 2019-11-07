@@ -7,6 +7,12 @@ Neste contexto, será demonstrado a subdivisão das responsabilidades utilizando
 A documentação do projeto justamente com a explicação do padrão estará disponível abaixo.
 
 ------------
+
+Contexto real: 
+
+Um profissional precisa se logar em um sistema em um supermercado e consultar seu preço.
+
+------------
 REFORMULAR 
 
 Projeto em Java:
