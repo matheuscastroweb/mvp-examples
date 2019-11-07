@@ -4,7 +4,7 @@ function PostModel(_text) {
      */
 
     /**
-     * @var ID recebe
+     * @var ID recebe um tempo para simular um ID
      */
     var ID = (new Date()).getTime();
 
