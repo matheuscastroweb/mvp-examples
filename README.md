@@ -35,6 +35,11 @@ metodos necessarios para o presenter
 
 ------------
 
+Referências - 
+
+FOWLER, Martin et al.Padrões de Arquitetura de Aplicações Corporativas. 2007. Bookman.
+RAJ, Pethuru et al. Architectural Patterns. 2017. Packt.
+
 Informações sobre o trabalho - 
 
 **Professor:** Thiago Delgado Pinto <br>
