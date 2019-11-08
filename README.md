@@ -1,4 +1,4 @@
-# MVP-posts
+# MVP-examples
 
 Trabalho apresentado a disciplina de Proj. e arquitetura de Software referente a utilização do padrão **MVP** (Model-View-Presenter) na linguagem Java.
 
@@ -7,14 +7,13 @@ Neste contexto, será demonstrado a subdivisão das responsabilidades utilizando
 ![Diagram](https://user-images.githubusercontent.com/45601574/68478678-3b3f7180-020f-11ea-9078-261fd4e5e657.png)
 
 ------------
-
-Contexto real: 
+#### Contexto real: 
 
 Um profissional precisa se logar em um sistema em um supermercado e consultar seu preço.
 
 ------------
 
-Implementação - Passive view
+#### Implementação - Passive view
 
 Model: fica a conexão com o banco de dados.
 
@@ -26,12 +25,12 @@ Interface view: Métodos necessarios para o presenter
 
 ------------
 
-Referências - 
+#### Referências:
 
-FOWLER, Martin et al.Padrões de Arquitetura de Aplicações Corporativas. 2007. Bookman.
-RAJ, Pethuru et al. Architectural Patterns. 2017. Packt.
+- FOWLER, Martin et al.Padrões de Arquitetura de Aplicações Corporativas. 2007. Bookman.
+- RAJ, Pethuru et al. Architectural Patterns. 2017. Packt.
 
-Informações sobre o trabalho - 
+#### Informações sobre o trabalho:
 
 **Professor:** Thiago Delgado Pinto <br>
 **Universidade:** Centro Federal de Educação Tecnológica Celso Suckow da Fonseca <br>
