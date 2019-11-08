@@ -11,7 +11,17 @@ Neste contexto, será demonstrado a subdivisão das responsabilidades utilizando
 
 Um profissional precisa se logar em um sistema em um supermercado e consultar seu preço.
 
-------------
+#### Vantagens: 
+
+Redigir.
+
+#### Desvantagens:
+
+Redigir.
+
+#### As diferenças entre o MVC e o MCP
+
+Redigir.
 
 #### Implementação - Passive view
 
