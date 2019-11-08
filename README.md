@@ -1,10 +1,10 @@
 # MVP-posts
 
-Trabalho apresentado a disciplina de Proj. e arquitetura de Software referente a utilização do padrão **MVP** (Model-View-Presenter) nas linguagem Java.
+Trabalho apresentado a disciplina de Proj. e arquitetura de Software referente a utilização do padrão **MVP** (Model-View-Presenter) na linguagem Java.
 
 Neste contexto, será demonstrado a subdivisão das responsabilidades utilizando o padrão em questão além da documentação de cada parte do código. 
 
-A documentação do projeto juntamente com a explicação do padrão estará disponível abaixo.
+![Diagram](https://user-images.githubusercontent.com/45601574/68478678-3b3f7180-020f-11ea-9078-261fd4e5e657.png)
 
 ------------
 
@@ -13,25 +13,16 @@ Contexto real:
 Um profissional precisa se logar em um sistema em um supermercado e consultar seu preço.
 
 ------------
-REFORMULAR 
 
-Projeto em Java:
+Implementação - Passive view
 
-Implementação Passive view!
+Model: fica a conexão com o banco de dados.
 
-Consulta de preços de mercadorias.
+Presenter: tem uma instância do model para realizar consultas no banco de dados,  e uma instância da interface view para comunicação com a view de forma indireta.
 
-Model: fica a conexão com o banco de dados. Seria o DAO
+View: tem uma instância de presenter e implementa a interface view. O que ela faz? Promove interação do usuário com o sitema, neste caso ela possibilita uma tela consulta por nome do produto, e exibe dados 
 
-Presenter: tem uma instância do model para realizar consultas no  bd, 
-e uma instância da interface view para comunicação com a view de forma indireta.
-
-View: tem uma instância de presenter e implementa a interface view.
-O que ela faz?
-prove interação do usuário com o sitema, neste caso ela possibilita uma tela consulta por nome do produto, e exibe dados
- 
-Interface view:
-metodos necessarios para o presenter
+Interface view: Métodos necessarios para o presenter
 
 ------------
 
