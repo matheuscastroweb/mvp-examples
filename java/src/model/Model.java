@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Model {
+
 	private Connection conexao;
 	private String comandoSQL;
 	private PreparedStatement stmt;
@@ -27,7 +28,7 @@ public class Model {
 			System.out.println("Erro na conexão");
 		}
 
-		this.comandoSQL = "select * from produto where nome=?";
+		this.comandoSQL = "SELECT * FROM produto WHERE nome=?";
 		Produto produto = new Produto();
 		try {
 			this.stmt = conexao.prepareStatement(comandoSQL);

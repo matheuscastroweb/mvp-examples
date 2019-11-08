@@ -5,13 +5,12 @@ import presenter.Presenter;
 
 public class View implements IView {
 	
-	
 	Presenter presenter = new Presenter(this);
 
 	public void mostrarTelaDeConsulta(Produto p) {
 		System.out.println("Tela de consulta:");
 		System.out.println("-------------------------------------");
-		System.out.println("Você está consultado o preço do produto: " + p.getNome());
+		System.out.println("VocÃª estÃ¡ consultado o preÃ§o do produto: " + p.getNome());
 		System.out.println("");
 		System.out.println("-------------------------------------");
 		
@@ -22,11 +21,11 @@ public class View implements IView {
 
 	@Override
 	public void mostrar(Produto p) {
-		System.out.println("Tela de apresentação: ");
+		System.out.println("Tela de apresentaÃ§Ã£o: ");
 		System.out.println("-------------------------------------");
 		System.out.println("Dados do Produto: ");
 		System.out.println("Nome: " + p.getNome());
-		System.out.println("Preço: " + p.getPreco());
+		System.out.println("PreÃ§o: " + p.getPreco());
 		System.out.println("-------------------------------------");
 
 	}

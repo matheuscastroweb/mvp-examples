@@ -1,4 +1,4 @@
-package teste;
+package test;
 
 import model.Produto;
 import view.View;
