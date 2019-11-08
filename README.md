@@ -11,9 +11,8 @@ Neste contexto, será demonstrado a subdivisão das responsabilidades utilizando
 O padrão MVP(Model-View-Presenter) é uma variante do padrão MVC(Model-View-Controller) foi projetado principalmente para tornar mais fácil para o teste de unidade. O gráfico fornecido abaixo descreve a arquitetura do padrão MVP:
 
 ![Diagram2](https://user-images.githubusercontent.com/45601574/68483874-0fc28400-021b-11ea-9570-2e1108f30b40.png)
+
 Retirado do livro: RAJ, Pethuru et al. Architectural Patterns. 2017. Packt.
-
-
 
 #### Contexto real: 
 
