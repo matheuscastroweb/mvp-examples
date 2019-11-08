@@ -3,14 +3,15 @@ package presenter;
 import model.Model;
 import model.Produto;
 import view.IView;
-import view.View;
+
 
 public class Presenter {
 	IView view;
 	Model model;
 	Produto produto;
 
-	public Presenter(View view) {
+	
+	public Presenter(IView view) {
 		this.view = view;
 		this.model = new Model();
 		this.produto = new Produto();

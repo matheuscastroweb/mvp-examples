@@ -1,10 +1,10 @@
 # MVP-posts
 
-Trabalho apresentado a disciplina de Proj. e arquitetura de Software referente a utilização do padrão **MVP** (Model-View-Presenter) nas linguagens JavaScript e Java.
+Trabalho apresentado a disciplina de Proj. e arquitetura de Software referente a utilização do padrão **MVP** (Model-View-Presenter) nas linguagem Java.
 
 Neste contexto, será demonstrado a subdivisão das responsabilidades utilizando o padrão em questão além da documentação de cada parte do código. 
 
-A documentação do projeto justamente com a explicação do padrão estará disponível abaixo.
+A documentação do projeto juntamente com a explicação do padrão estará disponível abaixo.
 
 ------------
 REFORMULAR 

@@ -10,7 +10,6 @@ public class Model {
 	private String comandoSQL;
 	private PreparedStatement stmt;
 
-	// private Boolean boolean1;
 	public Model() {
 		try {
 			this.conexao = new Conexao().getConexao();
@@ -43,13 +42,13 @@ public class Model {
 			}
 			return produto;
 		} catch (SQLException e) {
-			System.out.println("N�o deu para listar!");
+			System.out.println("não foi possivel listar!");
 			return null;
 		} finally {
 			try {
 				stmt.close();
 				conexao.close();
-				System.out.println(conexao);
+				// System.out.println(conexao);
 			} catch (SQLException e) {
 				System.out.println("Erro ao fechar banco de dados!");
 			}
