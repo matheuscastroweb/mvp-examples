@@ -1,20 +1,53 @@
 package presenter;
 
-import model.Model;
+import java.util.List;
+
+import model.ListaSabor;
+import model.Sorvete;
 import view.IView;
 
 public class Presenter {
-	IView view;
-	Model m = new Model();
-	
+	private IView view;
+	private Sorvete s;
+	private ListaSabor ls;
+
+	private double total;
+	private String sorvetes = "";
+
 	public Presenter(IView view) {
 		this.view = view;
+		ls = new ListaSabor();
 	}
-	
-	public void consultarSabor(int numero) {
-		String sabor = m.retornarSabor(numero);
-		System.out.println();
-		System.out.println("Sabor escolhido: "+numero+" - "+sabor);
-		view.exibirNota(sabor);
+
+	public String prepararSabor(int numero) {
+		if (numero >= 0 && numero < ls.total()) {
+			s = new Sorvete(ls.getSabor(numero));
+			total += s.getValor();
+			String sabor = s.getSabor();
+			sorvetes += sabor + "\n ";
+			return sabor;
+		} else {
+			return "Número de sorvete inválido";
+		}
+
 	}
+
+	public void total() {
+		if (total > 0)
+			view.exibirNota(sorvetes, total);
+
+	}
+
+	public String sabores() {
+		List<String> sabores = ls.getSabores();
+		String todos = " ";
+
+		for (int i = 0; i < sabores.size(); i++) {
+			todos += i + "-" + sabores.get(i) + "\n ";
+		}
+
+		return todos;
+
+	}
+
 }

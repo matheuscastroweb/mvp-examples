@@ -1,24 +1,24 @@
 package model;
 
 public class Sorvete {
-	
-	String sabor;
-	
-	public Sorvete(int numero) {
-			
-		switch(numero) {
-			case 1: sabor = "Morango"; break;
-			case 2: sabor = "Chocolate"; break;
-			case 3: sabor = "Flocos";break;
-			case 4: sabor = "Creme";break;
-			case 5: sabor = "Napolitano";break;
-		}	
-			
+
+	private String sabor;
+	private double valor = 3.0;
+
+	public Sorvete(String nome) {
+		this.sabor = nome;
 	}
-	
+
 	public String getSabor() {
 		return sabor;
 	}
-	
-	
+
+	public double getValor() {
+		return valor;
+	}
+
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+
 }

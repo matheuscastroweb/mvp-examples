@@ -4,29 +4,44 @@ import model.Produto;
 import presenter.Presenter;
 
 public class View implements IView {
-	
-	Presenter presenter = new Presenter(this);
 
-	public void mostrarTelaDeConsulta(Produto p) {
+	private Presenter presenter = new Presenter(this);
+
+	public void mostrarTelaDeConsulta(String nome) {
 		System.out.println("Tela de consulta:");
 		System.out.println("-------------------------------------");
-		System.out.println("VocÃª estÃ¡ consultado o preÃ§o do produto: " + p.getNome());
+		System.out.println("Você está consultado o preço do produto: " + nome);
 		System.out.println("");
 		System.out.println("-------------------------------------");
-		
-		presenter.consultar(p);
-		
-		
+
+		presenter.consultar(nome);
+
+	}
+
+	public void telaDeCadastro(String nome, double valor) {
+		System.out.println("Tela de cadastro:");
+		System.out.println("-------------------------------------");
+		System.out.println("Você está cadastrando o produto: " + nome);
+		System.out.println("Com preço:" + valor);
+		System.out.println("");
+		System.out.println("-------------------------------------");
+		presenter.cadastrar(nome, valor);
 	}
 
 	@Override
 	public void mostrar(Produto p) {
-		System.out.println("Tela de apresentaÃ§Ã£o: ");
+		System.out.println("Tela de apresentação: ");
 		System.out.println("-------------------------------------");
 		System.out.println("Dados do Produto: ");
 		System.out.println("Nome: " + p.getNome());
-		System.out.println("PreÃ§o: " + p.getPreco());
+		System.out.println("Preço: " + p.getPreco());
 		System.out.println("-------------------------------------");
+
+	}
+
+	@Override
+	public void mostrarCadastro(String msg) {
+		System.out.println(msg);
 
 	}
 
