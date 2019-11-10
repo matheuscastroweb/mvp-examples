@@ -14,17 +14,27 @@ O padrão MVP(Model-View-Presenter) é uma variante do padrão MVC(Model-View-Co
 
 Retirado do livro: RAJ, Pethuru et al. Architectural Patterns. 2017. Packt.
 
+#### Java - Sorveteria 
+
+![Sorveteria](https://user-images.githubusercontent.com/45601574/68550074-4a284e80-03de-11ea-8e59-c6ed337424c7.png)
+#### Java - Mercado 
+
+![Mercado](https://user-images.githubusercontent.com/45601574/68550073-4a284e80-03de-11ea-828c-a315aa7f87cc.png)
+
 #### Vantagens: 
 
-Redigir.
+As vantagens do MVP estão ligadas ao seu propósito de separar de forma clara os seus componentes, como pôde ser visto anteriormente, a View e o Model não têm referências um do outro e o Presenter utiliza uma interface para se conectar a View. Com essa separação o Presenter pode ser testado independente dos outros componentes e isso faz com que o sistema possa ser testado de forma mais fácil.
+A manutenção pode ser feita de forma mais fácil pelo fato de toda a parte lógica está apenas no presenter.
+Isso também contribui com a velocidade do desenvolvimento do sistema, pois os desenvolvedores não precisam esperar o término da View para poder começar a fazer o Presenter.
 
 #### Desvantagens:
 
-Redigir.
+ As desvantagens estão associadas ao risco do Presenter se tornar grande com o passar do tempo pelo risco de acumulo de métodos adicionais, o que pode dificultar a sua manutenção.
+O fato de ter que criar outra forma de conectar a View e o Presenter também pode tornar o MVP mais trabalhoso em relação ao MVC.
 
 #### As diferenças entre o MVC e o MCP
 
-Redigir.
+Com todas as pesquisas realizadas podemos perceber que a principal diferença entre o MVP e o MVC está na relação do Presenter e do Controler com a View, onde diferente do Presenter o Controler se relaciona diretamente com a View. Também podemos observar que o MVP é mais utilizado em grandes aplicações, onde há uma grande interação do usuário e as views são mais complexas, essa preferência ocorre pelo fato de que seria necessário contar com vários Controllers para realizar esse papel e no MVP é necessário apenas um Presenter.
 
 #### Implementação - Passive view
 
@@ -40,8 +50,12 @@ Interface view: Métodos necessarios para o presenter
 
 #### Referências:
 
-- FOWLER, Martin et al.Padrões de Arquitetura de Aplicações Corporativas. 2007. Bookman.
-- RAJ, Pethuru et al. Architectural Patterns. 2017. Packt.
+- FOWLER, Martin. Model-View-Presenter (MVP). Disponível em: <https://martinfowler.com/eaaDev/uiArchs.html#Model-view-presentermvp>. Acesso em: 08 de nov. de 2019.
+- FOWLER, Martin et al. Padrões de Arquitetura de Aplicações Corporativas. 2007. Bookman.]]
+- OSMANI, Addy.Learning JavaScript Design Patterns.2012. O'Relly
+- POTEL, Mike. MVP: Model-View-Presenter The Taligent Programming Model for C++ and Java. Disponível em: <http://www.wildcrest.com/Potel/Portfolio/mvp.pdf>. Acesso em: 08 de nov. de 2019.
+- RAJ, Pethuru et al. Architectural Patterns. 2017. Packt
+
 
 #### Informações sobre o trabalho:
 
