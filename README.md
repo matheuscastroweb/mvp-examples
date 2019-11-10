@@ -14,10 +14,6 @@ O padrão MVP(Model-View-Presenter) é uma variante do padrão MVC(Model-View-Co
 
 Retirado do livro: RAJ, Pethuru et al. Architectural Patterns. 2017. Packt.
 
-#### Contexto real: 
-
-Um profissional precisa se logar em um sistema em um supermercado e consultar seu preço.
-
 #### Vantagens: 
 
 Redigir.
